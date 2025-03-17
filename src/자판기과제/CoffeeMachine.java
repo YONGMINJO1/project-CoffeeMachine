@@ -80,7 +80,7 @@ public class CoffeeMachine {
 
                 for (int i = 0; i < coffeeButtonActive.length; i++) {
                     if (!coffeeButtonActive[i] && currentTime - coffeeButtonTimers[i] >= 10000) {
-                        coffeeButtonActive[i] = true;  // 30초가 지나면 버튼 활성화
+                        coffeeButtonActive[i] = true;  // 10초가 지나면 버튼 활성화
                     }
                 }
 
