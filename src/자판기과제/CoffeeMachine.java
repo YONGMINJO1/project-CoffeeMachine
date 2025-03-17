@@ -79,7 +79,7 @@ public class CoffeeMachine {
                 String coffeeNum = scanner.next();
 
                 for (int i = 0; i < coffeeButtonActive.length; i++) {
-                    if (!coffeeButtonActive[i] && currentTime - coffeeButtonTimers[i] >= 5000) {
+                    if (!coffeeButtonActive[i] && currentTime - coffeeButtonTimers[i] >= 10000) {
                         coffeeButtonActive[i] = true;  // 30초가 지나면 버튼 활성화
                     }
                 }
