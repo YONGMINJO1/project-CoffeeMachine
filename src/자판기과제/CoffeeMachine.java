@@ -91,7 +91,7 @@ public class CoffeeMachine {
 
                         if (!coffeeButtonActive[0]) {
 
-                            System.out.println("음료를 만들고있습니다... 15초 기다려주세요.");
+                            System.out.println("음료를 만들고있습니다... 10초 기다려주세요.");
                         } else if (money >= prices[0]) {
 
                             // 금액이 충분한 경우
@@ -113,7 +113,7 @@ public class CoffeeMachine {
                     case "2":
 
                         if (!coffeeButtonActive[0]) {
-                            System.out.println("음료를 만들고있습니다... 15초 기다려주세요.");
+                            System.out.println("음료를 만들고있습니다... 10초 기다려주세요.");
                         } else if (money >= prices[1]) {
                             System.out.println("설탕커피를 선택하셨습니다. 커피가 10초 후에 나옵니다.");
                             money -= prices[1];
@@ -133,7 +133,7 @@ public class CoffeeMachine {
                     case "3":
 
                         if (!coffeeButtonActive[0]) {
-                            System.out.println("음료를 만들고있습니다... 15초 기다려주세요.");
+                            System.out.println("음료를 만들고있습니다... 10초 기다려주세요.");
                         } else if (money >= prices[2]) {
                             System.out.println("블랙커피를 선택하셨습니다. 커피가 10초 후에 나옵니다.");
                             money -= prices[2];
@@ -149,7 +149,7 @@ public class CoffeeMachine {
                     case "4":
 
                         if (!coffeeButtonActive[0]) {
-                            System.out.println("음료를 만들고있습니다... 15초 기다려주세요.");
+                            System.out.println("음료를 만들고있습니다... 10초 기다려주세요.");
                         } else if (money >= prices[3]) {
                             System.out.println("코코아를 선택하셨습니다. 코코아가 10초 후에 나옵니다.");
                             money -= prices[3];
